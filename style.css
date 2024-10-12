@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+body{
+  background-image: url("image/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.search-bar{
+  display: flex;
+}
+
+.search-bar input{
+  border: none;
+  padding: 1rem;
+  width: 15rem;
+  border-radius: 2rem;
+  margin: 20px 2px;
+}
+
+input::placeholder{
+  color: black;
+  font-size: 1rem;
+}
+
+.search-bar i{
+  font-size: 2rem;
+  border: 1px solid white;
+  margin: 20px 2px;
+  padding: .4rem;
+  border-radius: 50%;
+
+}
+
+.box{
+  background-image: url("./image/back.jpg");
+  border-radius:30px ;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7rem;
+  /* margin: auto; */
+  width: 25rem;
+  height: 35rem;
+  color: white;
+  /* border: 1px solid black; */
+}
+
+.weather-type img{
+  width:10rem ;
+  height: 10rem;
+}
+
+.temp{
+  font-size: 3rem;
+  /* padding: 1rem; */
+}
+.city{
+  font-size: 2.3rem;
+}
+
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.down-bar{
+  margin: 2rem 0rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.down-bar div{
+ margin: 0rem 2rem;
+ text-align: center;
+ font-size: 1.35rem;
+}
+
